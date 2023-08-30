@@ -11,6 +11,7 @@ spec:
       labels:
         app: hello-world
     spec:
+      replicas: 2
       containers:
       - name: hello-world
         image: pancaaa/springboot-app:48d5f650ad935b9f8daf40ec3de0b1213019dc82
